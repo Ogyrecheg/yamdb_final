@@ -60,6 +60,8 @@ jobs:
         # Пуш образа в Docker Hub
         uses: docker/build-push-action@v2
         with:
+          context: app/
+          file: ./Dockerfile
           push: true
           tags: ogyrecheg/yamdb_final:latest
 
