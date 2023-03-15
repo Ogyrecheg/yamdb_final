@@ -77,7 +77,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            sudo docker pull ogyrecheg/yamdb_final
             sudo docker compose stop
             sudo docker compose rm web
             touch .env
