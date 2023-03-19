@@ -8,7 +8,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='p&l%385148kslhtyn^##a1)ilz@4zqj=rq
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '51.250.103.76', ]
+ALLOWED_HOSTS = ['*', ]
 
 AUTH_USER_MODEL = 'reviews.User'
 
