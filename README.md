@@ -1,17 +1,8 @@
 # Описание
-Приложение позволяет оставлять отзывы о произведениях в различных категориях и жанрах, а также оставлять оценки произведениям и комментировать существующие отзывы.
+Приложение позволяет оставлять отзывы о произведениях в различных категориях и жанрах,
+а также оставлять оценки произведениям и комментировать существующие отзывы.
 
-В рамках проекта использовались следующие технологии:
-##### Python 3.7
-##### Django 2.2.16
-##### PostgreSQl 13.0
-##### DRF 3.12.4
-##### GitHub, GitActions
-##### Nginx 1.21.3
-##### Gunicorn 20.0.4
-##### Docker 20.10.22
-
-## Как развернуть проект на локальной машине:
+## Запуск проекта:
 Скопируйте проект из репозитория:
 ```bash 
 git clone https://github.com/Ogyrecheg/yamdb_final.git
@@ -66,7 +57,6 @@ http://localhost/admin/
 cd api_yamdb
 python manage.py loaddata ../infra/fixtures.json
 ```
-### Развернутый проект лежит по [адресу](http://51.250.103.76/admin/login/?next=/admin/)
 
 ### Основные запросы API
 
@@ -82,8 +72,19 @@ python manage.py loaddata ../infra/fixtures.json
 
 Получение списка всех комментариев GET ```/api/v1/titles/{title_id}/reviews/{review_id}/comments/```
 
+
+**Технологии:**
+- Python
+- Django
+- PostgreSQl
+- DRF
+- GitHub, GitActions
+- Nginx
+- Gunicorn
+- Docker
+
 ### Автор проекта:
-студент когорты №17 Шевченко А.И
+студент когорты №17 [Шевченко Александр](https://github.com/Ogyrecheg)
 
 ![work_flow](https://github.com/Ogyrecheg/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
