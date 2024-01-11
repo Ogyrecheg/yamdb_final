@@ -15,7 +15,7 @@ source venv/scripts/activate
 ```
 При активированном virtual env скачать необходимые зависимости проекта:
 ```bash
-(venv) pip install -r api_yamdb/requirements.txt
+(venv) pip install -r requirements.txt
 ```
 ##### Установить докер на вашу машину ([туториал](https://docs.docker.com/engine/install/))
 ### Настройка переменных окружения:
